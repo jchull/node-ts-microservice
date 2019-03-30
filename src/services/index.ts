@@ -1,11 +1,5 @@
-import {Request, Response} from 'express';
+import routes from './routes';
+import alertsRoutes from './alerts';
+import statusRoutes from './status';
 
-const HOME_ROUTE = {
-  path: '/',
-  method: 'get',
-  handler: async (req: Request, res: Response) => {
-    res.send('You have landed at the API root, there are no services here.');
-  }
-};
-
-export default [HOME_ROUTE];
+export default [...routes, ...alertsRoutes, ...statusRoutes];

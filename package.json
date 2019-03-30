@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node ./dist/server.js\""
+    "start": "tsc-watch --onSuccess \"node ./dist/server.js\"",
+    "test": "jest --coverage --verbose"
   },
   "dependencies": {
     "@types/compression": "^0.0.36",
@@ -16,5 +17,25 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "morgan": "~1.9.0"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/test/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.1",
+    "@types/jest": "^24.0.11"
   }
 }

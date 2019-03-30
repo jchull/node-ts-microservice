@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e943954d-a6f6-44b5-ab18-56b8bef2c2d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/alerts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/alerts/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/status/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/status/routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node-ts-microservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/node-ts-microservice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,8 +29,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+            <state relative-caret-position="72">
+              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/alerts/index.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/status/index.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/routes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/status/routes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/services/alerts/routes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -50,38 +85,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="64" selection-start-column="64" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/middleware/common.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/middleware/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="81" selection-start-column="81" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -91,22 +94,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/yarn.lock">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -134,18 +132,21 @@
       <list>
         <option value="$PROJECT_DIR$/routes/server.ts" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/routes/index.ts" />
         <option value="$PROJECT_DIR$/server.ts" />
         <option value="$PROJECT_DIR$/middleware/common.ts" />
         <option value="$PROJECT_DIR$/middleware/index.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/services/index.ts" />
         <option value="$PROJECT_DIR$/src/middleware/common.ts" />
         <option value="$PROJECT_DIR$/src/middleware/index.ts" />
         <option value="$PROJECT_DIR$/src/util/index.ts" />
         <option value="$PROJECT_DIR$/src/server.ts" />
+        <option value="$PROJECT_DIR$/src/services/routes.ts" />
+        <option value="$PROJECT_DIR$/src/services/index.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/services/status/routes.ts" />
+        <option value="$PROJECT_DIR$/src/services/alerts/routes.ts" />
       </list>
     </option>
   </component>
@@ -189,6 +190,20 @@
               <item name="node-ts-microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-ts-microservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="alerts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-ts-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-ts-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="status" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-ts-microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-ts-microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -203,6 +218,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/services/status" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -211,6 +227,10 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/services/status" />
+      <recent name="$PROJECT_DIR$/src/services/alerts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -290,11 +310,19 @@
       <option name="project" value="LOCAL" />
       <updated>1553974861784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Restructured project, added typescript">
+      <created>1553979305203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553979305204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2963" height="2137" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.23827875" side_tool="true" weight="0.15741584" />
       <window_info id="Palette&#9;" order="1" />
@@ -309,9 +337,9 @@
       <window_info active="true" content_ui="combo" id="Project" order="10" sideWeight="0.73172414" visible="true" weight="0.11811024" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.547087" weight="0.24694377" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.52550495" side_tool="true" visible="true" weight="0.29095355" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5261897" side_tool="true" visible="true" weight="0.29095355" />
       <window_info active="true" anchor="bottom" x="1684" y="1233" width="1042" height="670" id="Database Console" order="3" sideWeight="0.46833277" visible="true" weight="0.3613692" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49435124" weight="0.33545232" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49366656" weight="0.33545232" />
       <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.50496405" side_tool="true" weight="0.33545232" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" sideWeight="0.49624062" weight="0.39980403" />
@@ -321,7 +349,7 @@
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info anchor="bottom" x="383" y="228" width="869" height="545" id="Spring" internal_type="FLOATING" order="12" show_stripe_button="false" sideWeight="0.4986816" type="FLOATING" weight="0.32925037" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.3180367" weight="0.31213307" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.47449502" visible="true" weight="0.29095355" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.47381034" visible="true" weight="0.29095355" />
       <window_info anchor="bottom" id="DB Execution Console" order="15" sideWeight="0.43744373" weight="0.32848486" />
       <window_info anchor="bottom" id="Inspection Results" order="16" sideWeight="0.5518755" weight="0.33007336" />
       <window_info anchor="bottom" id="REST Client" order="17" sideWeight="0.49455154" weight="0.32891566" />
@@ -354,7 +382,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit of default generated project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit of default generated project" />
+    <MESSAGE value="Restructured project, added typescript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructured project, added typescript" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.MD">
@@ -375,13 +404,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/middleware/common.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -398,13 +420,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/users.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/index.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -424,6 +439,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/status/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/alerts/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/status/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/alerts/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
